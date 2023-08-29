@@ -1,0 +1,64 @@
+/* style of banner */
+.banner{
+    display: flex;
+    background-color:rgba(229, 84, 115, 0.10);
+    width: 1900px;
+    height: 850px;
+    justify-content: center;
+
+}
+
+
+.banner-title{
+    width: 700px;
+    height: 280px;
+    color: #272727;
+
+    font-size: 80px;
+    font-weight: 800;
+
+}
+
+.banner-description{
+    width: 630px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+.banner-image{
+    width: 635px;
+    height: 850px;
+
+
+}
+
+.btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    gap: 10;
+    border-radius: 8px;
+    background: #E55473;
+
+
+    
+}
+
+/* style of feature */
+
+.feature-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
