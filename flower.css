@@ -92,6 +92,7 @@ font-weight: 800px;
 .f-i-caption{
     display: flex;
     justify-content: center;
+    text-decoration: underline;
 }
 
 
