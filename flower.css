@@ -258,8 +258,40 @@ margin-right: 10px;
 .placeholder{
     text-align: center;
 }
+/* style of free delivery */
+.free-delivery{
+    background-color:rgba(229, 84, 115, 0.10);
+    width: 1130px;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
 
 
+.free-title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    width: 580px;
+    padding-left: 50px;
+
+}
+
+.upto{
+    color: #E55473;
+}
+
+
+.delivery-image{
+    width: 580px;
+    padding-top: 50px;
+
+}
+.delivery-boy{
+    width: 300px;
+}
 /* style of flower shop */
 
 .footer{
