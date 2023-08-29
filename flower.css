@@ -2,29 +2,32 @@
 .banner{
     display: flex;
     background-color:rgba(229, 84, 115, 0.10);
-    width: 1900px;
-    height: 850px;
+    width: 1330px;
+    height: 600px;
     justify-content: center;
 
 }
 
 
 .banner-title{
-    width: 700px;
+    width: 500px;
     height: 280px;
     color: #272727;
-
-    font-size: 80px;
-    font-weight: 800;
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 
 }
 
 .banner-description{
-    width: 630px;
+    width: 500px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 
@@ -32,8 +35,10 @@
 
 
 .banner-image{
-    width: 635px;
-    height: 850px;
+    width: 500px;
+    height: 550px;
+    padding-top: 50px;
+    margin-left: 50px;
 
 
 }
@@ -52,6 +57,13 @@
 }
 
 /* style of feature */
+
+
+.feature{
+    width: 1130px;
+    margin-left: 85px;
+    margin-right: 100px;
+}
 
 .feature-title{
 color: #272727;
@@ -82,20 +94,17 @@ font-weight: 800px;
     justify-content: center;
 }
 
-.f-i-c{
-  margin: 10px 180px; 
-  text-decoration: underline; 
-}
+
 
 
 .feature-image-1{
 
 border-radius: 300px 300px 0px 0px;
 background-color: lightpink;
-padding: 50px 50px 0px 50px;
-margin: 10px 10px;
-width: 310px;
+width: 326px;
 height: 428px;
+margin-left: 15px;
+padding: 20px 20px 0px 20px;
 
 }
 
@@ -103,20 +112,20 @@ height: 428px;
 .feature-image-2{
 border-radius: 300px 300px 0px 0px;
 background-color: lightskyblue;
-padding: 50px 50px 0px 50px;
-margin: 10px 10px;
-width: 310px;
+width: 326px;
 height: 428px;
+margin-left: 15px;
+padding: 20px 20px 0px 20px;
 }
 
 
 .feature-image-3{
 border-radius: 300px 300px 0px 0px;
 background-color: lightsteelblue;
-padding: 50px 50px 0px 50px;
-margin: 10px 10px;
-width: 310px;
+width: 326px;
 height: 428px;
+margin-left: 15px;
+padding: 20px 20px 0px 20px;
 }
 
 
@@ -127,9 +136,11 @@ height: 428px;
     background-color: antiquewhite;
     justify-content: center;
     display: flex;
-    width: 1922px;
+    width: 1130px;
     height: 450px;
-    margin: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
 
 }
 
@@ -159,16 +170,24 @@ line-height: 30px;
 .hot-deal-image{
     width: 318px;
     height: 420px;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 
 /* style of insta */
 
+.insta-section{
+    width: 1130px;
+    margin-left: 90px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+
 .insta-title{
 color: #272727;
 text-align: center;
-font-size: 40px;
+font-size: 35px;
 font-weight: 800;
 margin-bottom: 0px;
 }
@@ -181,10 +200,12 @@ font-weight: 400;
 
 
 .insta-image-all{
-    margin-left: 200px;
+    
+    display: flex;
 }
 .insta-image{
-    margin: 10px;
+    width: 275px;
+    margin-left: 10px;
 }
 
 
@@ -192,10 +213,11 @@ font-weight: 400;
  /* style of get */
 
   .get{
-    width: 1440px;
+    width: 1130px;
 height: 449px;
 border-radius: 8px;
-margin-left: 200px;
+margin-left: 100px;
+margin-right: 100px;
 padding-top: 100px;
 background-repeat: no-repeat;
 
@@ -235,4 +257,41 @@ margin-right: 10px;
 
 .placeholder{
     text-align: center;
+}
+
+
+/* style of flower shop */
+
+.footer{
+background-color: black;
+width: 1330px;
+height: 400px;
+padding-top: 100px;
+
+
+}
+
+.shop-title{ color: #FFF;
+text-align: center;
+font-size: 48px;
+font-weight: 800;
+
+}
+
+.flower{
+    color: #E55473;
+}
+
+
+.shop-description{
+color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+
+}
+
+.copyright{
+color: darkslategray;
+text-align: center;
 }
